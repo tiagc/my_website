@@ -2,7 +2,6 @@
 Portfolio website
 
 # Work Links
-
 0683 Grafik
 0709 Entwicklung
 0731 Aufwertung

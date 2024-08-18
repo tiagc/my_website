@@ -39,51 +39,55 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: #cdcdcd;
     text-decoration: none;
+    transition: all 0.4s linear;
     font-size: 18px;
     position: relative;
+}
+
+nav ul li a:hover{
+  color: black;
 }
 
 .links{
     margin-top: 10%;
     margin-left: 25%;
-    margin-right: 50%;
-    font-size: 18px;
-    font-style: oblique;
+    display: inline-block;
 }
 
 .links-2{
     margin-left: 0%;
-    margin-right: 75%;
-    font-size: 18px;
-    /*italic left:*/
-    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
-    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
-    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
-    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
+    margin-right: 50%;
+    display: inline-block;
 }
 
 .links-3{
     margin-left: 25%;
     margin-right: 50%;
-    font-size: 18px;
+    display: inline-block;
 }
 
 .links-4{
-    margin-left: 25%;
-    margin-right: 50%;
-    font-size: 18px;
+  margin-left: 0%;
+  margin-right: 50%;
+  display: inline-block;
 }
 
-a{
+.links-5{
+    margin-left: 25%;
+    margin-right: 50%;
+    display: inline-block;
+}
+
+.links-styling{
     color: black;
+    font-size: 18px;
     transition: all 0.1s linear;
     text-decoration: none;
 }
 
-a:hover{
+.links-styling:hover{
     color: #cdcdcd;
 }
 

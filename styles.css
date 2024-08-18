@@ -48,12 +48,14 @@ nav ul li a{
 .links{
     margin-top: 10%;
     margin-left: 25%;
+    margin-right: 50%;
     font-size: 18px;
     font-style: oblique;
 }
 
 .links-2{
     margin-left: 0%;
+    margin-right: 75%;
     font-size: 18px;
     /*italic left:*/
     -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(10deg, 0deg);
@@ -65,11 +67,13 @@ nav ul li a{
 
 .links-3{
     margin-left: 25%;
+    margin-right: 50%;
     font-size: 18px;
 }
 
 .links-4{
     margin-left: 25%;
+    margin-right: 50%;
     font-size: 18px;
 }
 

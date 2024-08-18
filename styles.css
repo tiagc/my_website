@@ -103,7 +103,7 @@ nav ul li a:hover{
     font-size: 24px;
     width: 0;
     white-space: nowrap; /* keep content on single line */
-    animation: typing 1s steps(15, end) forwards, blink 1s infinite;
+    animation: typing 1s steps(5, end) forwards, blink 1s infinite;
   }
 
   /* typing effect */

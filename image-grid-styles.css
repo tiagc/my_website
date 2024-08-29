@@ -1,3 +1,23 @@
 .image-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+.image-grid img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
 }

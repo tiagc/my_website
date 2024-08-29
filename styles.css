@@ -12,10 +12,13 @@ body {
 }
 
 #header {
-  width: 50%;
-  margin: 0 auto;
-  padding-top: 20px;
-  height: auto;
+  width: 100%;
+  padding: 20px 60px;
+}
+
+footer {
+  padding: 60px;
+  text-align: right;
 }
 
 nav {
@@ -135,7 +138,6 @@ nav ul li a:hover .cls-2 {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(5 auto);
   grid-auto-flow: row;
 
   max-width: 960px;

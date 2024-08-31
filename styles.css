@@ -68,7 +68,7 @@ nav ul li a:hover {
   border-radius: 5px;
   padding: 5px 0;
   position: absolute;
-  bottom: -40px;
+  bottom: -25px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;

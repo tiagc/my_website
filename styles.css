@@ -201,10 +201,11 @@ nav ul li a:hover .cls-2 {
 
 /* typing effect */
 @keyframes typing {
-  from {
+  0% {
     width: 0;
+    color: black;
   }
-  to {
+  100% {
     width: 100%;
   }
 }

@@ -26,7 +26,7 @@ img:hover {
 
 .table {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr 1fr;
   padding: 0 60px;
   gap: 10px;
   align-items: start;
@@ -40,18 +40,37 @@ img:hover {
   height: 100%;
 }
 
-h1 {
-  font-size: 20px;
-}
-
-h2 {
-  font-size: 13px;
-}
-
 .text-columns {
   grid-column: 2 / 3;
   columns: 2;
   column-gap: 10px;
+}
+
+/*prev/next button*/
+#counter{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+#counter h1{
+  margin: 0;
+}
+
+#counter a{
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  /*smooth transistion for transform effect*/
+}
+
+#counter a[rel="prev"]:hover{
+transform: translateX(-5px);
+}
+
+#counter a[rel="next"]:hover{
+transform: translateX(5px);
 }
 
 @media (min-width: 1280px) {

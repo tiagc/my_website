@@ -1,14 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", "Helvetica Neue", "Arial";
-  font-weight: lighter;
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
+  font-weight: normal;
   box-sizing: border-box;
 }
 
 body {
   background-color: white;
   color: black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 13px;
 }
 
 #header {
@@ -36,9 +44,9 @@ nav ul li {
 
 nav ul li a {
   color: #cdcdcd;
+  font-size: 20px;
   text-decoration: none;
   transition: all 0.4s linear;
-  font-size: 18px;
   position: relative;
 }
 
@@ -104,42 +112,10 @@ nav ul li a:hover .cls-2 {
   stroke: black;
 }
 
-/*
-.links-1 {
-  margin-left: 25%;
-  display: inline-block;
-}
-
-.links-2 {
-  margin-left: 0%;
-  margin-right: 50%;
-  display: inline-block;
-}
-
-.links-3 {
-  margin-left: 25%;
-  margin-right: 50%;
-  display: inline-block;
-}
-
-.links-4 {
-  margin-left: 0%;
-  margin-right: 50%;
-  display: inline-block;
-}
-
-.links-5 {
-  margin-left: 25%;
-  margin-right: 50%;
-  display: inline-block;
-}
-*/
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
-
   max-width: 960px;
   margin: 0 auto;
   padding: 60px;
@@ -175,9 +151,12 @@ nav ul li a:hover .cls-2 {
 
 .links-styling {
   color: black;
-  font-size: 24px;
-  transition: all 0.1s linear;
+  transition: color 0.1s ease;
   text-decoration: none;
+}
+
+.links-styling h1{
+  font-size: 30px;
 }
 
 .links-styling:hover {

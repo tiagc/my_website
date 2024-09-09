@@ -23,8 +23,8 @@
 
 .table {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding: 0 60px;
+  grid-template-columns: 300px 2fr 1fr;
+  padding: 20px 60px;
   gap: 10px;
   align-items: start;
 }
@@ -51,22 +51,36 @@ h2 {
   column-gap: 10px;
 }
 
+/*prev/next button*/
+#counter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+#counter h1 {
+  margin: 0;
+}
+
+#counter a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+  /*smooth transistion for transform effect*/
+}
+
+#counter a[rel="prev"]:hover {
+  transform: translateX(-5px);
+}
+
+#counter a[rel="next"]:hover {
+  transform: translateX(5px);
+}
+
 @media (max-width: 768px) {
   .image-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-  }
-
-  .image-group-1,
-  .image-group-2 {
-    grid-column: 1 / 2;
-    grid-row: auto;
-    width: 100%;
-  }
-
-  .image-group-2 img,
-  .image-group-2 video {
-    height: auto;
-    width: 100%;
   }
 }

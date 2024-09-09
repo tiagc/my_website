@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue", "Helvetica", "Arial";
+  font-family: "Helvetica", "Helvetica Neue", "Arial";
   font-weight: normal;
   box-sizing: border-box;
 }
@@ -155,8 +155,9 @@ nav ul li a:hover .cls-2 {
   text-decoration: none;
 }
 
-.links-styling h1{
-  font-size: 30px;
+.links-styling h1 {
+  font-size: 40px;
+  font-weight: lighter;
 }
 
 .links-styling:hover {
@@ -164,21 +165,29 @@ nav ul li a:hover .cls-2 {
 }
 
 .typewriter {
-  display: inline-block;
+  font-family: "Helvetica", "Helvetica Neue", "Arial";
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  overflow: hidden;
+  color: black;
+  text-decoration: none;
 }
 
+/* typwriter effect (old version)
 .typed-out {
-  font-family: "Helvetica";
-  letter-spacing: 0px;
-  overflow: hidden; /* content not revealed until animation */
-  border-right: 2px solid black; /* cursor */
+  font-family: "Helvetica", "Helvetica Neue", "Arial";
   font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 0.01rem;
+  overflow: hidden;
+  border-right: 2px solid black;
   width: 0;
-  white-space: nowrap; /* keep content on single line */
+  white-space: nowrap;
   animation: typing 1s steps(5, end) forwards, blink 1s infinite;
 }
 
-/* typing effect */
 @keyframes typing {
   0% {
     width: 0;
@@ -197,3 +206,4 @@ nav ul li a:hover .cls-2 {
     border-color: black;
   }
 }
+*/

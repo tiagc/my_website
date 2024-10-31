@@ -1,4 +1,4 @@
-# my_website
+# My Website
 
 Portfolio website von Tiago Canha.
 
@@ -9,4 +9,5 @@ Portfolio website von Tiago Canha.
 0749 Gitschen
 0873 Fotografie
 
-Die oben aufgeführeten Links funktionieren atm.
+Die oben aufgeführeten Links funktionieren stand 31.10.24
+Der Button "Surface" wird in Zukunft eine Funktion erhalten.

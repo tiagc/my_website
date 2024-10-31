@@ -65,6 +65,7 @@ img:hover {
   /*smooth transistion for transform effect*/
 }
 
+/* zurück und weiter pfeil animation*/
 #counter a[rel="prev"]:hover {
   transform: translateX(-5px);
 }

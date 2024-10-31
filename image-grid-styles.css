@@ -65,12 +65,6 @@
   transform: translateX(5px);
 }
 
-@media (min-width: 1280px) {
-  .image-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 @media (min-width: 1440px) {
   .image-grid {
     grid-template-columns: 1fr 1fr 1fr;

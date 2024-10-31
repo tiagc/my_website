@@ -29,6 +29,54 @@ footer {
   text-align: right;
 }
 
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 45px;
+  padding: 20px 60px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 1em;
+  color: black;
+}
+
+form button {
+  width: 50%;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.impressum {
+  font-size: 20px;
+  padding: 20px 60px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -175,7 +223,7 @@ nav ul li a:hover .cls-2 {
   text-decoration: none;
 }
 
-/* typwriter effect (old version)
+/* typwriter effect (alte version ohne js)
 .typed-out {
   font-family: "Helvetica", "Helvetica Neue", "Arial";
   font-size: 24px;

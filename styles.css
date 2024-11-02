@@ -29,6 +29,16 @@ footer {
   text-align: right;
 }
 
+.datenschutz {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s linear;
+}
+
+.datenschutz:hover {
+  color: #cdcdcd;
+}
+
 form {
   font-size: 1em;
   max-width: 400px;
@@ -230,7 +240,7 @@ nav ul li a:hover .cls-2 {
   text-decoration: none;
 }
 
-/* typwriter effect (alte version ohne js)
+/* typwriter effekt (alte version ohne js, habe ich später ersetzt)
 .typed-out {
   font-family: "Helvetica", "Helvetica Neue", "Arial";
   font-size: 24px;

@@ -1,3 +1,4 @@
+/*js für muss-feldüberprüfung*/
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {

@@ -1,3 +1,4 @@
+/*typewriter javascript animation für meinen header/logo*/
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
@@ -8,6 +9,7 @@ var TxtType = function (el, toRotate, period) {
   this.isDeleting = false;
 };
 
+/*wann soll der text wieder gelöscht werden*/
 TxtType.prototype.tick = function () {
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
@@ -41,6 +43,7 @@ TxtType.prototype.tick = function () {
   }, delta);
 };
 
+/*richtigs element holen vom html dokumen*/
 window.onload = function () {
   var elements = document.getElementsByClassName("typewriter");
   for (var i = 0; i < elements.length; i++) {
@@ -50,7 +53,7 @@ window.onload = function () {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
-  // INJECT CSS
+  // injet css styling (blinkender cursor)
   var css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML = `
@@ -62,5 +65,6 @@ window.onload = function () {
             from, to { border-color: transparent; }
             50% { border-color: black; }
         }`;
+
   document.body.appendChild(css);
 };
